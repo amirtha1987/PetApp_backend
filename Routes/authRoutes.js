@@ -1,10 +1,10 @@
 import express from "express";
 import authController from "../Controllers/authController.js";
-import {
-  checkIfFieldsAreComplete,
-  checkifLoginFieldsAreComplete,
-  checkUpdateFieldsUserComplete,
-} from "../Middlewares/checkFieldsComplete.js";
+// import {
+//   checkIfFieldsAreComplete,
+//   checkifLoginFieldsAreComplete,
+//   checkUpdateFieldsUserComplete,
+// } from "../Middlewares/checkFieldsComplete.js";
 import {
   ifUserExists,
   logInInexistentUser,

@@ -1,19 +1,20 @@
-{ "homepage":"http://amirtha1987.github.io/PetApp_backend",
+{
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
-    "express": "^4.21.1",
-    "gh-pages": "^6.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
     "nodemon": "^3.1.7"
   }
 }
